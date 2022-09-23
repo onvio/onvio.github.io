@@ -1,0 +1,32 @@
+---
+Scanning:
+  label: Scanning
+  description: Command focuses on scanning.
+ 
+Enumeration:
+  label: Enumeration
+  description: Command focuses on enumeration.
+
+Exploitation:
+  label: Exploitation
+  description: Command focuses on exploitation.
+
+Lateral Movement:
+  label: Lateral Movement
+  description: Command focuses on lateral movement.
+
+Persistence:
+  label: Persistence
+  description: Command focuses on persistence.
+
+Pivoting:
+  label: Pivoting
+  description: Command focuses on pivoting.
+
+PrivEsc:
+  label: Privilege Escalation
+  description: Command focuses on privilege escalation.
+
+Cracking:
+  label: Cracking
+  description: Command focuses on cracking.
